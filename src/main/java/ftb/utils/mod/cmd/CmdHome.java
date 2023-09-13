@@ -1,11 +1,15 @@
 package ftb.utils.mod.cmd;
 
-import net.minecraft.command.*;
+import net.minecraft.command.CommandException;
+import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.util.*;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.util.IChatComponent;
 
-import ftb.lib.*;
-import ftb.lib.api.cmd.*;
+import ftb.lib.BlockDimPos;
+import ftb.lib.LMDimUtils;
+import ftb.lib.api.cmd.CommandLM;
+import ftb.lib.api.cmd.CommandLevel;
 import ftb.utils.mod.FTBU;
 import ftb.utils.world.LMPlayerServer;
 import latmod.lib.LMStringUtils;
@@ -30,7 +34,7 @@ public class CmdHome extends CommandLM {
         LMPlayerServer p = LMPlayerServer.get(ep);
 
         if (args0.length == 0) {
-            args0 = new String[] {"home"};
+            args0 = new String[] { "home" };
         }
 
         String[] args = args0;
