@@ -26,7 +26,13 @@ public class CmdSetHome extends CommandLM {
     public IChatComponent onCommand(ICommandSender ics, String[] args) throws CommandException {
         EntityPlayerMP ep = getCommandSenderAsPlayer(ics);
         LMPlayerServer p = LMPlayerServer.get(ep);
-        checkArgs(args, 1);
+
+        if (args.length == 0)
+        {
+            args = new String[] {"home"};
+        }
+
+        args[0] = args[0].toLowerCase();
 
         int maxHomes = p.getRank().config.max_homes.getAsInt();
 

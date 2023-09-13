@@ -25,10 +25,15 @@ public class CmdHome extends CommandLM {
         return null;
     }
 
-    public IChatComponent onCommand(ICommandSender ics, String[] args) throws CommandException {
+    public IChatComponent onCommand(ICommandSender ics, String[] args0) throws CommandException {
         EntityPlayerMP ep = getCommandSenderAsPlayer(ics);
         LMPlayerServer p = LMPlayerServer.get(ep);
-        checkArgs(args, 1);
+
+        if (args0.length == 0) {
+            args0 = new String[] {"home"};
+        }
+
+        String[] args = args0;
 
         if (args[0].equals("list")) {
             String[] list = p.homes.list();
