@@ -3,18 +3,27 @@ package ftb.utils.mod.cmd.admin;
 import java.io.File;
 import java.util.UUID;
 
-import net.minecraft.command.*;
+import net.minecraft.command.CommandException;
+import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.util.*;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.util.IChatComponent;
 
 import com.mojang.authlib.GameProfile;
 
-import ftb.lib.*;
-import ftb.lib.api.cmd.*;
+import ftb.lib.BaublesHelper;
+import ftb.lib.FTBLib;
+import ftb.lib.LMNBTUtils;
+import ftb.lib.OtherMods;
+import ftb.lib.api.cmd.CommandLM;
+import ftb.lib.api.cmd.CommandLevel;
+import ftb.lib.api.cmd.CommandSubLM;
 import ftb.lib.api.item.StringIDInvLoader;
-import ftb.utils.world.*;
-import latmod.lib.*;
+import ftb.utils.world.LMPlayerServer;
+import ftb.utils.world.LMWorldServer;
+import latmod.lib.LMFileUtils;
+import latmod.lib.LMUtils;
 
 public class CmdPlayerLM extends CommandSubLM {
 

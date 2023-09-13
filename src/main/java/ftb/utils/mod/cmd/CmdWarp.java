@@ -6,8 +6,8 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.IChatComponent;
 
-import ftb.lib.LMDimUtils;
 import ftb.lib.BlockDimPos;
+import ftb.lib.LMDimUtils;
 import ftb.lib.api.cmd.CommandLM;
 import ftb.lib.api.cmd.CommandLevel;
 import ftb.utils.mod.FTBU;

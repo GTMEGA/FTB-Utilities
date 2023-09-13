@@ -12,7 +12,6 @@ import ftb.lib.api.cmd.CommandLM;
 import ftb.lib.api.cmd.CommandLevel;
 import latmod.lib.LMStringUtils;
 
-
 public class CmdMath extends CommandLM {
 
     private static Boolean hasEngine = null;
