@@ -3,7 +3,7 @@
   "modList": [{
     "modid": "${modId}",
     "name": "${modName}",
-    "description": "FTB Utilities - GTNH",
+    "description": "FTB Utilities - MEGA",
     "version": "${modVersion}",
     "mcversion": "${minecraftVersion}",
     "url": "https://feed-the-beast.com",
@@ -11,7 +11,7 @@
     "authorList": [
       "LatvianModder"
     ],
-    "credits": "GTNH",
+    "credits": "GTNH, MEGA",
     "logoFile": "assets/ftbu/textures/logo.png",
     "screenshots": [],
     "parent": "",

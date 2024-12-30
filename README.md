@@ -7,9 +7,11 @@ http://minecraft.curseforge.com/mc-mods/224778
 
 ### License
 
+MEGA Modifications Copyright (C) 2024 The MEGA Team
+
 GTNH Modifications Copyright (C) 2021-2022 The GTNH Team
 
-GTNH Changes are Dual Licensed:<br>
+GTNH/MEGA Changes are Dual Licensed:<br>
 For LatvianModder - Original MIT License<br>
 For everyone else, this code is licensed LGPL v3.0 or later. Feel free to use our changes, just give back any changes you make to the community as well!
 
